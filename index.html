@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Drive連携ツール</title>
+</head>
+<body style="font-family:sans-serif;max-width:680px;margin:40px auto;padding:0 20px;line-height:1.8;">
+
+<h1>Drive連携ツール</h1>
+<p>3DCG制作(Maya)のチーム運用を支援するために作られた、個人用のツール群の一部です。Google Drive に保存された資料(ドキュメント・スプレッドシート等)を、開発者自身が管理する Discord Bot やスクリプトから参照できるようにするための、Drive API 連携を行います。</p>
+<p>一般公開されたサービスではありません。開発者本人の Google アカウントに対してのみ、開発者本人がこのアプリを認可して利用します。第三者が利用したり、第三者のデータを扱うことはありません。</p>
+
+<h2>利用する権限(スコープ)</h2>
+<p>このアプリが Google アカウントに要求する権限は、すべて読み取り専用です。</p>
+<ul>
+<li><code>drive.readonly</code> — Google Drive内のファイル一覧・内容の読み取り</li>
+<li><code>drive.activity.readonly</code> — ファイルの編集履歴(誰が・いつ編集したか)の読み取り</li>
+<li><code>contacts.readonly</code> / <code>contacts.other.readonly</code> — 編集者IDを氏名に変換表示するための連絡先の読み取り</li>
+</ul>
+<p>書き込み・削除・共有設定の変更を行う権限は一切要求していません。</p>
+
+<h2>プライバシーポリシー</h2>
+<p><b>取得する情報</b><br>上記スコープの範囲内で、開発者自身のGoogle Driveのファイル情報・編集履歴・連絡先情報を取得します。</p>
+<p><b>保存場所</b><br>取得した情報は、開発者本人が管理するPCのローカル環境にのみ保存されます。外部のサーバーへ送信することはありません。</p>
+<p><b>第三者提供</b><br>取得した情報を第三者に提供・販売・共有することはありません。</p>
+<p><b>利用目的</b><br>制作チーム内での資料共有・進捗確認を、開発者自身が使うBotやスクリプトから自動化するためにのみ利用します。</p>
+<p><b>認可の取り消し</b><br>開発者はいつでも <a href="https://myaccount.google.com/permissions">Google アカウントのセキュリティ設定</a> から、このアプリへのアクセス権を取り消せます。</p>
+
+<p style="color:#666;font-size:13px;margin-top:40px;">最終更新: 2026-09-29</p>
+</body>
+</html>
